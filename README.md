@@ -1,4 +1,4 @@
-# rbenv-china-mirror
+# pyenv-china-mirror
 
 此项目是[rbenv-china-mirror](https://github.com/AndorChen/rbenv-china-mirror)的`pyenv`版本。
 
