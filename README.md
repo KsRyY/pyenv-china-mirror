@@ -39,7 +39,7 @@ $ git pull
 
 ## 作者
 
-原作者：[Andor](http://about.ac)
+原作者：[Andor](http://about.ac)  
 修改者：[KsRyY](https://konomo.now.sh)
 
 ## 许可证
