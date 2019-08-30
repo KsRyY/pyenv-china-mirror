@@ -17,7 +17,7 @@ $ git clone https://github.com/KsRyY/pyenv-china-mirror.git "$(pyenv root)"/plug
 像往常一样安装 Python 即可，无需额外设置。
 
 ```sh
-$ py install 3.7.4
+$ pyenv install 3.7.4
 ```
 
 ## 升级方法
