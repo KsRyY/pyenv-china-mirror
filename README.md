@@ -9,7 +9,13 @@
 在命令行中执行下述命令：
 
 ```sh
-$ git clone https://github.com/KsRyY/pyenv-china-mirror.git "$(pyenv root)"/plugins/pyenv-china-mirror
+git clone https://github.com/KsRyY/pyenv-china-mirror.git "$(pyenv root)"/plugins/pyenv-china-mirror
+```
+
+注意，如果当前shell是fish的话，则应使用下述命令：
+
+``` fish
+git clone https://github.com/KsRyY/pyenv-china-mirror.git (pyenv root)/plugins/pyenv-china-mirror
 ```
 
 ## 使用方法
@@ -17,16 +23,16 @@ $ git clone https://github.com/KsRyY/pyenv-china-mirror.git "$(pyenv root)"/plug
 像往常一样安装 Python 即可，无需额外设置。
 
 ```sh
-$ pyenv install 3.7.4
+pyenv install 3.7.4
 ```
 
 ## 升级方法
 
 进入 `pyenv-china-mirror` 插件所在的目录，拉取这个仓库里的最新代码：
 
-```
-$ cd ~/.pyenv/plugins/pyenv-china-mirror
-$ git pull
+```sh
+cd ~/.pyenv/plugins/pyenv-china-mirror
+git pull
 ```
 
 ## 卸载方法
